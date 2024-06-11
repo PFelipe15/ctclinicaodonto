@@ -4,12 +4,33 @@ const nextConfig = {
     images: {
         remotePatterns: [
           {
-             hostname: 'via.placeholder.com',
+             hostname: 'complex-dent.com.ua',
        
           },
           {
-            hostname:"prod-files-secure.s3.us-west-2.amazonaws.com"
-          }
+            hostname:"i.pinimg.com"
+          },
+          {
+            hostname:"dental-clinic.ae"
+          },
+          {
+            hostname:"www.trovaweb.net"
+          },
+          {
+            hostname:"feragreece.com"
+          },
+          {
+            hostname:"www.researchgate.net"
+          },
+          {
+            hostname:"www.cleardental.com.au"
+          },
+          {
+            hostname:"sabkadentist.com"
+          },
+          {
+            hostname:"avatars.mds.yandex.net"
+          },
         ],
       },
 

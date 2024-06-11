@@ -37,14 +37,7 @@ export default function MenuMobile() {
                 <MenubarTrigger href={"/"}>Home</MenubarTrigger>
               </Link>
             </MenubarMenu>
-            <MenubarMenu>
-              <Link
-                href={"/about-me"}
-                onClick={() => setIsMenuOpen(!isMenuOpen)}
-              >
-                <MenubarTrigger href={"/about-me"}>Quem Somos</MenubarTrigger>
-              </Link>{" "}
-            </MenubarMenu>
+
             <MenubarMenu>
               <Link href={"/equipe"} onClick={() => setIsMenuOpen(!isMenuOpen)}>
                 <MenubarTrigger href={"/equipe"}>Nossa Equipe</MenubarTrigger>
@@ -58,120 +51,64 @@ export default function MenuMobile() {
                 <MenubarTrigger href={"/clinica"}>A Clinica</MenubarTrigger>
               </Link>{" "}
             </MenubarMenu>
-            <MenubarMenu>
-              <DropdownMenu>
-                <DropdownMenuTrigger asChild>
-                  <MenubarTrigger href="/exames-tratamentos/exames">
-                    Exames
-                  </MenubarTrigger>
-                </DropdownMenuTrigger>
-                <DropdownMenuContent className="flex gap-4 flex-col">
-                  <Link
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/exames/citoscopia-rigida"}
-                  >
-                    <DropdownMenuItem>Cistoscopia Rigida</DropdownMenuItem>
-                  </Link>
-                  <Link
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/exames/citoscopia-flexivel"}
-                  >
-                    <DropdownMenuItem>Cistoscopia Flexível</DropdownMenuItem>
-                  </Link>
-                  <Link
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={
-                      "/exames-tratamentos/exames/teste-erecao-farmaco-induzida"
-                    }
-                  >
-                    <DropdownMenuItem>
-                      Teste de Ereção Fármaco-Induzida
-                    </DropdownMenuItem>
-                  </Link>
-                  <Link
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/exames/urodinamica"}
-                  >
-                    <DropdownMenuItem>Urodinâmica</DropdownMenuItem>
-                  </Link>
-                  <Link
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/exames/urodinamica-completa"}
-                  >
-                    <DropdownMenuItem>Urodinâmica Completa</DropdownMenuItem>
-                  </Link>
-                </DropdownMenuContent>
-              </DropdownMenu>
-            </MenubarMenu>
+
             <MenubarMenu>
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
                   <MenubarTrigger href="/exames-tratamentos/tratamento">
-                    Tratamentos
+                    Procedimentos
                   </MenubarTrigger>
                 </DropdownMenuTrigger>
                 <DropdownMenuContent className="flex gap-4 flex-col">
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/tratamentos/biopsia-peniana"}
+                    href={"/exames-tratamentos/tratamentos/restauracao"}
                   >
-                    <DropdownMenuItem>Biópsia Peniana</DropdownMenuItem>
+                    <DropdownMenuItem>Restauração</DropdownMenuItem>
+                  </Link>
+
+                  <Link
+                    onClick={() => setIsMenuOpen(!isMenuOpen)}
+                    href={"/exames-tratamentos/tratamentos/implante"}
+                  >
+                    <DropdownMenuItem>Implante</DropdownMenuItem>
                   </Link>
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/tratamentos/crioterapia"}
+                    href={"/exames-tratamentos/tratamentos/proteses"}
                   >
-                    <DropdownMenuItem>Crioterapia</DropdownMenuItem>
+                    <DropdownMenuItem>Proteses</DropdownMenuItem>
                   </Link>
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/tratamentos/dilatacao-uretral"}
+                    href={"/exames-tratamentos/tratamentos/harmonizacao"}
                   >
-                    <DropdownMenuItem>Dilatação Uretral</DropdownMenuItem>
+                    <DropdownMenuItem>Harmonizacao</DropdownMenuItem>
                   </Link>
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={
-                      "/exames-tratamentos/tratamentos/fisioterapia-pelvica"
-                    }
+                    href={"/exames-tratamentos/tratamentos/exodontia"}
                   >
-                    <DropdownMenuItem>Fisioterapia Pélvica</DropdownMenuItem>
+                    <DropdownMenuItem>Exodontia</DropdownMenuItem>
                   </Link>
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/tratamentos/implantes-hormonais"}
+                    href={"/exames-tratamentos/tratamentos/clareamento"}
                   >
-                    <DropdownMenuItem>Implantes Hormonais</DropdownMenuItem>
+                    <DropdownMenuItem>Clareamento</DropdownMenuItem>
                   </Link>
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={
-                      "/exames-tratamentos/tratamentos/terapia-por-ondas-de-choque"
-                    }
-                  >
-                    <DropdownMenuItem>
-                      Terapia por Ondas de Choque
-                    </DropdownMenuItem>
+                    href={"/exames-tratamentos/tratamentos/limpeza"}                  >
+                    <DropdownMenuItem>Limpeza</DropdownMenuItem>
                   </Link>
                   <Link
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/tratamentos/postectomia"}
-                  >
-                    <DropdownMenuItem>Postectomia</DropdownMenuItem>
-                  </Link>
-                  <Link
-                    onClick={() => setIsMenuOpen(!isMenuOpen)}
-                    href={"/exames-tratamentos/tratamentos/vasectomia"}
-                  >
-                    <DropdownMenuItem>Vasectomia</DropdownMenuItem>
+                    href={"/exames-tratamentos/tratamentos/cirurgia-oral-menor"}                  >
+                    <DropdownMenuItem>Cirurgia Oral Menor</DropdownMenuItem>
                   </Link>
                 </DropdownMenuContent>
               </DropdownMenu>
-            </MenubarMenu>
-            <MenubarMenu>
-              <Link href={"/blog"} onClick={() => setIsMenuOpen(!isMenuOpen)}>
-                <MenubarTrigger href="/blog">Blog</MenubarTrigger>
-              </Link>
             </MenubarMenu>
           </Menubar>
         </div>

@@ -139,14 +139,14 @@ export default function Map() {
           onClick={handleEmailMouseOver}
         >
           <Mail size="32" className="text-primary" />
-          <p>urovida@gmail.com.br</p>
+          <p>clinicact@gmail.com.br</p>
         </div>
         <div
           className="flex gap-2 items-center hover:scale-105 transition-all"
           onClick={handlePhoneMouseOver}
         >
           <MessageCircle size="32" className="text-primary" />
-          <p>(86) 999337249</p>
+          <p>(86) 988034600</p>
         </div>
       </div>
     </div>

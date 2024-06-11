@@ -1,5 +1,5 @@
 import Image from 'next/image';
-import Logo from '../../app/assets/Logo.jpg';
+import Logo from '../../app/assets/LogoQualidadeAlta.jpg';
 
 const Footer = () => {
   return (
@@ -9,7 +9,7 @@ const Footer = () => {
            <div className="mr-4">
             <Image src={Logo} alt="Logo" width={100} height={100} />
           </div>
-           <h1 className="text-2xl font-bold">Urovida</h1>
+           <h1 className="text-2xl font-bold">Clinica CT</h1>
         </div>
          <nav className="flex flex-wrap items-center justify-center lg:justify-end">
           <a  href="/" className="mx-2 hover:scale-105 transition-all text-lg hover:text-gray-400">Home</a>
@@ -17,7 +17,7 @@ const Footer = () => {
          </nav>
       </div>
        <div className="text-center mt-4">
-        <p>&copy; {new Date().getFullYear()} Urovida. Todos os direitos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} Clinica CT. Todos os direitos reservados.</p>
       </div>
     </footer>
   );
