@@ -62,9 +62,9 @@ const config = {
       },
 
       backgroundImage: {
-        banner: "url('./assets/Banner.png')",
-        banner2: "url('./assets/Banner2.png')",
-        banner3: "url('./assets/banner2.png')",
+        banner: "url('./assets/banner.png')",
+        banner2: "url('./assets/banner2.png')",
+   
       },
       keyframes: {
         "accordion-down": {
