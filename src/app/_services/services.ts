@@ -65,19 +65,19 @@ const procedimentosPopulares = [
     title: "Limpeza",
     descricao: "A Limpeza é a remoção de placa bacteriana e tártaro para manter a saúde bucal.",
     imagem: ImageExample,
-    link: "/exames-tratamentos/exames/limpeza",
+    link: "/exames-tratamentos/tratamentos/limpeza",
   },
   {
     title: "Clareamento",
     descricao: "O Clareamento é um procedimento estético para clarear a cor dos dentes.",
     imagem: ImageExample,
-    link: "/exames-tratamentos/exames/clareamento",
+    link: "/exames-tratamentos/tratamentos/clareamento",
   },
   {
     title: "Restauração",
     descricao: "A Restauração é um procedimento odontológico que visa reparar e restaurar a função e integridade de um dente danificado.",
     imagem: ImageExample,
-    link: "/exames-tratamentos/exames/restauracao",
+    link: "/exames-tratamentos/tratamentos/restauracao",
   },
 ];
 
