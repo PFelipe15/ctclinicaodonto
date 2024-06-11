@@ -1,101 +1,51 @@
 import Image from 'next/image';
 import medico1 from '../assets/principal.jpg';
-import medico2 from '../assets/Medicos.jpg';
-import medico3 from '../assets/Medicos2.jpg';
-import medico4 from '../assets/Medicos2.jpg';
-import medico5 from '../assets/Medicos2.jpg';
+ 
 
 export default function Equipe() {
   const team = [
     {
-        name: 'Dr. Benjamim Carvalho',
-        title: 'Urologista',
-        crm: 'CRM 54321',
+        name: 'Dr. Carlos Almeida',
+        title: 'Dentista',
+        crm: 'CRO 12345',
         graduation: 'Universidade de São Paulo',
-        description: 'Renomado urologista com mais de 20 anos de experiência. Ele acredita que a saúde do trato urinário é fundamental para o bem-estar geral.',
+        description: 'Especialista em odontologia estética com mais de 15 anos de experiência. Focado em proporcionar sorrisos saudáveis e bonitos.',
         image: medico1,
     },
     {
-        name: 'Dr. Luciano Couto',
-        title: 'Urologista',
-        crm: 'CRM 67891',
+        name: 'Dra. Fernanda Silva',
+        title: 'Dentista',
+        crm: 'CRO 67890',
         graduation: 'Universidade Federal do Rio de Janeiro',
-        description: 'Dedicado urologista especializado em tratar e prevenir doenças do sistema urinário.',
+        description: 'Dentista dedicada ao tratamento de doenças periodontais e à saúde bucal preventiva.',
         image: medico1,
     },
     {
-        name: 'Dr. Vilson Bezerra',
-        title: 'Urologista',
-        crm: 'CRM 11224',
+        name: 'Dr. Rafael Moreira',
+        title: 'Dentista',
+        crm: 'CRO 11223',
         graduation: 'Universidade Estadual de Campinas',
-        description: 'Apaixonado por promover a saúde do sistema urinário com uma abordagem preventiva.',
+        description: 'Apaixonado por endodontia, ajudando pacientes a manter dentes naturais sempre que possível.',
         image: medico1,
     },
     {
-        name: 'Dr. Candilberto Lopes Filho',
-        title: 'Ortopedista',
-        crm: 'CRM 22334',
+        name: 'Dra. Juliana Fernandes',
+        title: 'Dentista',
+        crm: 'CRO 33456',
         graduation: 'Universidade Federal de Minas Gerais',
-        description: 'Especialista em ortopedia, focado em reabilitação e cuidados com o sistema musculoesquelético.',
+        description: 'Especialista em ortodontia, corrigindo alinhamento dentário e maxilar para melhorar a funcionalidade e estética.',
         image: medico1,
     },
     {
-        name: 'Dr. Ginivaldo Victor',
-        title: 'Pediatra',
-        crm: 'CRM 55667',
-        graduation: 'Universidade de Brasília',
-        description: 'Pediatra dedicado à saúde e bem-estar das crianças.',
-        image: medico1,
-    },
-    {
-        name: 'Dra. Lorena Soares',
-        title: 'Ginecologista',
-        crm: 'CRM 33445',
-        graduation: 'Universidade Estadual Paulista',
-        description: 'Comprometida com a saúde da mulher e cuidados ginecológicos.',
-        image: medico1,
-    },
-    {
-        name: 'Dra. Glinia Nogueira',
-        title: 'Dermatologista',
-        crm: 'CRM 66778',
-        graduation: 'Universidade Federal de Pernambuco',
-        description: 'Especialista em saúde da pele, tratando e prevenindo doenças dermatológicas.',
-        image: medico1,
-    },
-    {
-        name: 'Lorena Moura',
-        title: 'Enfermeira',
+        name: 'Ana Paula Souza',
+        title: 'Atendente',
         crm: '',
-        graduation: 'Universidade de São Paulo',
-        description: 'Enfermeira dedicada, focada em fornecer cuidados de saúde excepcionais aos pacientes.',
-        image: medico1,
-    },
-    {
-        name: 'Lara Feitosa',
-        title: 'Enfermeira',
-        crm: '',
-        graduation: 'Universidade Federal do Rio de Janeiro',
-        description: 'Enfermeira empenhada em promover a saúde através da alimentação equilibrada.',
-        image: medico1,
-    },
-    {
-        name: 'Viviane Lima',
-        title: 'Enfermeira',
-        crm: '',
-        graduation: 'Universidade Estadual de Campinas',
-        description: 'Enfermeira com foco em saúde mental e bem-estar emocional dos pacientes.',
-        image: medico1,
-    },
-    {
-        name: 'Ingred',
-        title: 'Enfermeira',
-        crm: '',
-        graduation: 'Universidade de Brasília',
-        description: 'Enfermeira dedicada à reabilitação e melhoria da qualidade de vida dos pacientes.',
+        graduation: 'Curso Técnico em Saúde',
+        description: 'Atendente dedicada, focada em proporcionar uma excelente experiência aos pacientes desde a recepção até o agendamento de consultas.',
         image: medico1,
     },
 ];
+
 
 
     return (
